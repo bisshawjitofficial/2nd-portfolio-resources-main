@@ -10,18 +10,35 @@ body {
     border-radius: 5px;
     background: #FD6E0A;
     border: none;
-    color:#FFF;
+    color: #FFF;
     font-weight: 700;
     font-size: 20px;
     padding: 15px 35px;
 
 }
 
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.section-discription {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
 /* nav-realted-styles */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
-    
+
     align-items: center;
     margin: 0 220px;
 
@@ -51,14 +68,92 @@ nav a {
 }
 
 /* headder related style */
-.header{
+.header {
     background-color: #FFF8F3;
+    background-image: url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
-.bannar{
-    padding: 30px 30px 30px 150px;
+
+.bannar {
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-.profil-picture{
+
+.bannar-containt {
+    max-width: 500px;
+}
+
+.profil-picture {
     width: 500px;
+}
+
+.bannar-greating {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 0;
+
+}
+
+.bannar-heading {
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+}
+
+.bannar-discription {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+
+}
+
+/* main section styles */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+/* about section styles */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
+}
+
+.about-info-containar {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.info-title {
+    color: #757575;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: -10px;
+
+}
+
+.info-discription {
+    color:#474747;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+#what-i-discription{
+    padding: 30px 150x;
 }
