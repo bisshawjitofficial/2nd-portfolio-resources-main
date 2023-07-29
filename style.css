@@ -23,6 +23,7 @@ nav{
     justify-content: space-between;
     
     align-items: center;
+    margin: 0 220px;
 
 }
 
@@ -47,4 +48,17 @@ nav a {
     text-decoration: none;
     color: #474747;
     font-size: 20px;
+}
+
+/* headder related style */
+.header{
+    background-color: #FFF8F3;
+}
+.bannar{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.profil-picture{
+    width: 500px;
 }
